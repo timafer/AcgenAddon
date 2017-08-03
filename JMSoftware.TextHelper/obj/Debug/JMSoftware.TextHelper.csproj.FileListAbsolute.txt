@@ -1,0 +1,5 @@
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.TextHelper\bin\Debug\JMSoftware.TextHelper.dll
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.TextHelper\bin\Debug\JMSoftware.TextHelper.pdb
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.TextHelper\obj\Debug\JMSoftware.TextHelper.csprojResolveAssemblyReference.cache
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.TextHelper\obj\Debug\JMSoftware.TextHelper.dll
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.TextHelper\obj\Debug\JMSoftware.TextHelper.pdb

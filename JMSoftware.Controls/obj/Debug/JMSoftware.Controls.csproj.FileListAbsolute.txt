@@ -1,0 +1,12 @@
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.Controls\bin\Debug\JMSoftware.Controls.dll
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.Controls\bin\Debug\JMSoftware.Controls.pdb
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.Controls\bin\Debug\JMSoftware.ImageHelper.dll
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.Controls\bin\Debug\JMSoftware.ImageHelper.pdb
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.Controls\obj\Debug\JMSoftware.Controls.csprojResolveAssemblyReference.cache
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.Controls\obj\Debug\JMSoftware.Controls.FileListBox.resources
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.Controls\obj\Debug\JMSoftware.Controls.JMPictureBox.resources
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.Controls\obj\Debug\JMSoftware.Controls.JMSelectablePictureBox.resources
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.Controls\obj\Debug\JMSoftware.Controls.Levels.JMLevels.resources
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.Controls\obj\Debug\JMSoftware.Controls.csproj.GenerateResource.Cache
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.Controls\obj\Debug\JMSoftware.Controls.dll
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.Controls\obj\Debug\JMSoftware.Controls.pdb

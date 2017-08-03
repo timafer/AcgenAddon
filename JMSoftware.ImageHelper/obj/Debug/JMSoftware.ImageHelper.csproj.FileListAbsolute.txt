@@ -1,0 +1,5 @@
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.ImageHelper\bin\Debug\JMSoftware.ImageHelper.dll
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.ImageHelper\bin\Debug\JMSoftware.ImageHelper.pdb
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.ImageHelper\obj\Debug\JMSoftware.ImageHelper.csprojResolveAssemblyReference.cache
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.ImageHelper\obj\Debug\JMSoftware.ImageHelper.dll
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\ascgen2\JMSoftware.ImageHelper\obj\Debug\JMSoftware.ImageHelper.pdb
