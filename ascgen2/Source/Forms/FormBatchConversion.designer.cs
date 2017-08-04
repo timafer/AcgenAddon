@@ -649,6 +649,7 @@
         private System.Windows.Forms.SaveFileDialog saveFileDialogLog;
         private System.Windows.Forms.NumericUpDown numericUpDownImageScale;
         private System.Windows.Forms.Label labelPercent;
+        private System.Windows.Forms.ToolStripMenuItem Opensearch;
         private System.Windows.Forms.ContextMenuStrip contextMenuStripFileList;
         private System.Windows.Forms.ToolStripMenuItem addFileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addDirectoryToolStripMenuItem;

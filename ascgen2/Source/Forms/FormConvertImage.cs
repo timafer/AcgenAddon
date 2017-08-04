@@ -2036,7 +2036,10 @@ namespace JMSoftware.AsciiGeneratorDotNet
         {
             this.Close();
         }
-
+        private void MenuSearch_Click(object sender, System.EventArgs e)
+        {
+            this.Close();
+        }
         /// <summary>
         /// Handles the Click event of the menuFileImportClipboard control.
         /// </summary>

@@ -202,6 +202,8 @@ namespace JMSoftware.AsciiGeneratorDotNet
 
         private ToolStripMenuItem menuViewFullScreen;
 
+        private ToolStripMenuItem menuSearch;
+
         private ToolStripSeparator menuViewSep1;
 
         private ToolStripSeparator menuViewSep2;
@@ -296,6 +298,7 @@ namespace JMSoftware.AsciiGeneratorDotNet
             this.menuFileSaveAs = new System.Windows.Forms.ToolStripMenuItem();
             this.menuFileSep5 = new System.Windows.Forms.ToolStripSeparator();
             this.menuFileExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuSearch = new System.Windows.Forms.ToolStripMenuItem();
             this.menuEdit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuEditFonts = new System.Windows.Forms.ToolStripMenuItem();
             this.menuEditFontsFont = new System.Windows.Forms.ToolStripMenuItem();
@@ -581,6 +584,7 @@ namespace JMSoftware.AsciiGeneratorDotNet
             this.menuFileSep3,
             this.menuFileSaveAs,
             this.menuFileSep5,
+            this.menuSearch,
             this.menuFileExit});
             this.menuFile.MergeIndex = 0;
             this.menuFile.Name = "menuFile";
@@ -703,12 +707,22 @@ namespace JMSoftware.AsciiGeneratorDotNet
             // menuFileExit
             // 
             this.menuFileExit.Image = global::AscGenDotNet.Properties.Resources.door_open;
-            this.menuFileExit.MergeIndex = 9;
+            this.menuFileExit.MergeIndex = 10;
             this.menuFileExit.Name = "menuFileExit";
             this.menuFileExit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
             this.menuFileExit.Size = new System.Drawing.Size(254, 22);
             this.menuFileExit.Text = "menuFileExit";
             this.menuFileExit.Click += new System.EventHandler(this.MenuFileExit_Click);
+            //
+            //menuSearch
+            //
+            this.menuSearch.Image = global::AscGenDotNet.Properties.Resources.magifier_zoom_out;
+            this.menuSearch.MergeIndex = 9;
+            this.menuSearch.Name = "menuSearch";
+            this.menuSearch.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
+            this.menuSearch.Size = new System.Drawing.Size(254, 22);
+            this.menuSearch.Text = "Search";
+            this.menuSearch.Click += new System.EventHandler(this.MenuSearch_Click);
             // 
             // menuEdit
             // 
