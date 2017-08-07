@@ -461,7 +461,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\glassicon.png" />
+    <None Include="Resources\glassicon.png" />
     <Content Include="version.xml" />
     <None Include="Resources\folder_add.png" />
     <None Include="Resources\image_add.png" />

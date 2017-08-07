@@ -716,7 +716,7 @@ namespace JMSoftware.AsciiGeneratorDotNet
             //
             //menuSearch
             //
-            this.menuSearch.Image = global::AscGenDotNet.Properties.Resources.magifier_zoom_out;
+            this.menuSearch.Image = global::AscGenDotNet.Properties.Resources.magnifier_zoom_in;
             this.menuSearch.MergeIndex = 9;
             this.menuSearch.Name = "menuSearch";
             this.menuSearch.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
