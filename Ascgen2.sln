@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ascgen2", "Ascgen2\Ascgen2.csproj", "{770F6D41-B085-4E51-935E-11C09E28F156}"
 	ProjectSection(ProjectDependencies) = postProject
 		{4A100A8B-4510-42AF-901E-A72D840D2A91} = {4A100A8B-4510-42AF-901E-A72D840D2A91}
@@ -13,6 +15,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMSoftware.ImageHelper", "JMSoftware.ImageHelper\JMSoftware.ImageHelper.csproj", "{052DA6A8-6309-4589-922A-28407F8A0DD0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMSoftware.VersionChecking", "JMSoftware.VersionChecking\JMSoftware.VersionChecking.csproj", "{4A100A8B-4510-42AF-901E-A72D840D2A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Browser", "Browser\Browser.csproj", "{2AA3FC6F-2D37-4504-8067-150133FFBE01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +44,10 @@ Global
 		{4A100A8B-4510-42AF-901E-A72D840D2A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A100A8B-4510-42AF-901E-A72D840D2A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A100A8B-4510-42AF-901E-A72D840D2A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA3FC6F-2D37-4504-8067-150133FFBE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA3FC6F-2D37-4504-8067-150133FFBE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA3FC6F-2D37-4504-8067-150133FFBE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA3FC6F-2D37-4504-8067-150133FFBE01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

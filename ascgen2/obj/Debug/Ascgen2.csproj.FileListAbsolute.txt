@@ -64,3 +64,6 @@ C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Ascgen2\obj\Debug\JMSof
 C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Ascgen2\obj\Debug\Ascgen2.csproj.GenerateResource.Cache
 C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Ascgen2\obj\Debug\Ascgen2.exe
 C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Ascgen2\obj\Debug\Ascgen2.pdb
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Ascgen2\bin\Debug\Browser.exe
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Ascgen2\bin\Debug\Browser.pdb
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Ascgen2\bin\Debug\Browser.exe.config

@@ -40,6 +40,7 @@ namespace JMSoftware.AsciiGeneratorDotNet
     using JMSoftware.VersionChecking;
     using JMSoftware.Widgets;
     using Version = JMSoftware.VersionChecking.Version;
+    using Browser;
 
     /// <summary>
     /// Main form for the program
@@ -2038,7 +2039,10 @@ namespace JMSoftware.AsciiGeneratorDotNet
         }
         private void MenuSearch_Click(object sender, System.EventArgs e)
         {
-            this.Close();
+            MessageBox.Show("This opens up a browser that you can search for images in if you want it to auto open images once your done pls" +
+                " save it in AcgenAddon\\Downloaded_pics");
+            Form1 f = new Form1();
+            f.ShowDialog();
         }
         /// <summary>
         /// Handles the Click event of the menuFileImportClipboard control.
