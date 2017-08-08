@@ -41,6 +41,7 @@ namespace JMSoftware.AsciiGeneratorDotNet
     using JMSoftware.Widgets;
     using Version = JMSoftware.VersionChecking.Version;
     using Browser;
+    using System.Reflection;
 
     /// <summary>
     /// Main form for the program
@@ -2040,9 +2041,49 @@ namespace JMSoftware.AsciiGeneratorDotNet
         private void MenuSearch_Click(object sender, System.EventArgs e)
         {
             MessageBox.Show("This opens up a browser that you can search for images in if you want it to auto open images once your done pls" +
-                " save it in AcgenAddon\\Downloaded_pics");
+                " save it in AcgenAddon\\Downloaded_pics, Pls note that this folder will be emptied on shutdown");
             Form1 f = new Form1();
+            f.FormClosed += new FormClosedEventHandler(CloseBrowser);
             f.ShowDialog();
+            
+
+        }
+        private void CloseBrowser(object sender, System.EventArgs e)
+        {
+            String s= System.IO.Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory);
+            s=s.Remove(57, 17);
+            s += "\\Downloaded_pics";
+            if (Directory.GetLastWriteTime(s) > DateTime.Today)
+            {
+                List<string> l = new List<string>(Directory.GetFiles(s));
+                Directory.GetLastWriteTime(s);
+                foreach(string file in l)
+                {
+                    if(file.Contains(".gif")|| file.Contains("png") || file.Contains("jpg"))
+                    {
+                        Bitmap bitmap;
+                        using (Stream bmpStream = System.IO.File.Open(file, System.IO.FileMode.Open))
+                        {
+                            Image image = Image.FromStream(bmpStream);
+
+                            bitmap = new Bitmap(image);
+
+                        }
+                        LoadImage(bitmap);
+                        try
+                        {
+                            System.IO.File.Delete(file);
+                        }
+                        catch (System.IO.IOException ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                            return;
+                        }
+                        break;
+                    }
+                }
+            }
+            //FileStream fs = new FileStream();
         }
         /// <summary>
         /// Handles the Click event of the menuFileImportClipboard control.
