@@ -2038,17 +2038,17 @@ namespace JMSoftware.AsciiGeneratorDotNet
         {
             this.Close();
         }
-        private void MenuSearch_Click(object sender, System.EventArgs e)
+        public void MenuSearch_Click(object sender, System.EventArgs e)
         {
             MessageBox.Show("This opens up a browser that you can search for images in if you want it to auto open images once your done pls" +
                 " save it in AcgenAddon\\Downloaded_pics, Pls note that this folder will be emptied on shutdown");
-            Form1 f = new Form1();
+            ImageSearch f = new ImageSearch();
             f.FormClosed += new FormClosedEventHandler(CloseBrowser);
             f.ShowDialog();
             
 
         }
-        private void CloseBrowser(object sender, System.EventArgs e)
+        public void CloseBrowser(object sender, System.EventArgs e)
         {
             String s= System.IO.Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory);
             s=s.Remove(57, 17);

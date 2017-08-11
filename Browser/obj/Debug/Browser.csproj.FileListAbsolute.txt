@@ -2,8 +2,8 @@ C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Browser\bin\Debug\Brows
 C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Browser\bin\Debug\Browser.exe
 C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Browser\bin\Debug\Browser.pdb
 C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Browser\obj\Debug\Browser.csprojResolveAssemblyReference.cache
-C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Browser\obj\Debug\Browser.Form1.resources
 C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Browser\obj\Debug\Browser.Properties.Resources.resources
 C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Browser\obj\Debug\Browser.csproj.GenerateResource.Cache
 C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Browser\obj\Debug\Browser.exe
 C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Browser\obj\Debug\Browser.pdb
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\Browser\obj\Debug\Browser.ImageSearch.resources

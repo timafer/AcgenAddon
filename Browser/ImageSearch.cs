@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Browser
 {
-    public partial class Form1 : Form
+    public partial class ImageSearch : Form
     {
-        public Form1()
+        public ImageSearch()
         {
             InitializeComponent();
             webBrowser1.Navigate("https://images.google.com/");
@@ -49,10 +49,5 @@ namespace Browser
             webBrowser1.Stop();
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            string webpage = textBox1.Text.Trim();
-            webBrowser1.Navigate(webpage);
-        }
     }
 }

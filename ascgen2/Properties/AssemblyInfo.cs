@@ -1,4 +1,5 @@
-﻿//---------------------------------------------------------------------------------------
+﻿using System.Runtime.CompilerServices;
+//---------------------------------------------------------------------------------------
 // <copyright file="AssemblyInfo.cs" company="Jonathan Mathews Software">
 //     ASCII Generator dotNET - Image to ASCII Art Conversion Program
 //     Copyright (C) 2011 Jonathan Mathews Software. All rights reserved.
@@ -54,3 +55,6 @@ using System.Runtime.InteropServices;
 //      Revision
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("2.0.0.1")]
+[assembly: InternalsVisibleTo("Ascgen2.Tests")]
+[assembly: InternalsVisibleTo("Ascgen2.Explorables")]
+
