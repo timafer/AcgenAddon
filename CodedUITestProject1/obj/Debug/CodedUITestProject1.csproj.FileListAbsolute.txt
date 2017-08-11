@@ -1,0 +1,5 @@
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\CodedUITestProject1\bin\Debug\CodedUITestProject1.pdb
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\CodedUITestProject1\obj\Debug\CodedUITestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\CodedUITestProject1\obj\Debug\CodedUITestProject1.dll
+C:\Users\Timafer\Desktop\Ascgen2-2.0.0-source\AcgenAddon\CodedUITestProject1\obj\Debug\CodedUITestProject1.pdb
