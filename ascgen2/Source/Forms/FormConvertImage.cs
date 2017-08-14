@@ -2041,7 +2041,8 @@ namespace JMSoftware.AsciiGeneratorDotNet
         public void MenuSearch_Click(object sender, System.EventArgs e)
         {
             MessageBox.Show("This opens up a browser that you can search for images in if you want it to auto open images once your done pls" +
-                " save it in AcgenAddon\\Downloaded_pics, Pls note that this folder will be emptied on shutdown");
+                " save it in AcgenAddon\\Downloaded_pics, Pls note that the loaded file will be deleted after its loaded and that if multiple are downloaded " +
+                "only the first alphabaticly will be loaded.");
             ImageSearch f = new ImageSearch();
             f.FormClosed += new FormClosedEventHandler(CloseBrowser);
             f.ShowDialog();
@@ -2056,7 +2057,6 @@ namespace JMSoftware.AsciiGeneratorDotNet
             if (Directory.GetLastWriteTime(s) > DateTime.Today)
             {
                 List<string> l = new List<string>(Directory.GetFiles(s));
-                Directory.GetLastWriteTime(s);
                 foreach(string file in l)
                 {
                     if(file.Contains(".gif")|| file.Contains("png") || file.Contains("jpg"))
